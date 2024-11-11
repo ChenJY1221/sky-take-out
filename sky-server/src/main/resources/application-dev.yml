@@ -12,3 +12,6 @@ sky:
     access-key-id: LTAI5tPeFLZSPPT8gG3LPW64
     access-key-secret: U6k1br0z8ga0IXv3nXbulGTUzy6Pd7
     bucket-name: sky-itcast
+  wechat:
+    appid: wx0756f68bec5028e6
+    secret: 78bb028d9c180cf7b41885299999287b
