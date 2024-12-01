@@ -84,7 +84,7 @@ public class DishServiceImpl implements DishService {
             }
         }
         //判断当前菜品是否能够删除----是否被套餐关联
-        List<Long> setmealIds = setmealDishMapper.getSetmealIdsByDishId(ids);
+        List<Long> setmealIds = setmealDishMapper.getSetmealIdsByDishIds(ids);
         if (setmealIds != null && setmealIds.size() > 0) {
             throw new DeletionNotAllowedException(MessageConstant.DISH_BE_RELATED_BY_SETMEAL);
         }
